@@ -146,7 +146,7 @@ Then, on the Raspberry Pi 3:
 Export the robot model:  
 `export TURTLEBOT3_MODEL=burger`  
 Launch the autonomous navigation application (**RViz is mandatory**):  
-*Replace **xxx** by your ROS version, ndlr my_map*  
+*Replace **xxx** by your map name, ndlr my_map for me*  
 `roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/xxx.yaml`  
 9. On RViz, if needed, replace your robot initial position thanks to the **2D Pose Estimate**, clicking on the map and orienting the robot with the green arrow.
 10. On RViz, set a navigation goal thanks to the **2D Nav Goal**, clicking on the map and orienting the robot with the rose arrow.
