@@ -1,0 +1,8 @@
+prefix=/home/hakan-taspinar/catkin_ws/install
+
+Name: hector_geotiff
+Description: Description of hector_geotiff
+Version: 0.5.2
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/home/hakan-taspinar/anaconda3/include/qt/ -I/home/hakan-taspinar/anaconda3/include/qt/QtWidgets -I/home/hakan-taspinar/anaconda3/include/qt/QtGui -I/home/hakan-taspinar/anaconda3/include/qt/QtCore -I/home/hakan-taspinar/anaconda3/.//mkspecs/linux-g++
+Libs: -L${prefix}/lib -lgeotiff_writer /home/hakan-taspinar/anaconda3/lib/libQt5Widgets.so.5.9.7
+Requires: hector_map_tools hector_nav_msgs nav_msgs pluginlib roscpp std_msgs
