@@ -22,6 +22,8 @@ under the ROS framework (Robot Operating System).
   *  Simulations_Navigation_Gazebo&RViz
   *  Téléopérations_[Navigation_non_autonome]
 
+* catkin_ws : this is my whole catkin_ws repository (laptop) used for this project
+
 * Projet_GSE5_2021_2022.pdf : initial project specification 
 
 * [ELEC_5-SA]-Hakan_TASPINAR-Saad_BARMAKI-Rapport_de_Projet_GSE-Indoor_real-time_navigation_for_robot_vehicles.pdf : final project report
